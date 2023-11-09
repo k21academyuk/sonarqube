@@ -21,3 +21,5 @@ if [ -d "/var/opt/sonar-scanner-4.7.0.2747-linux" ];then
 fi
 sudo mv sonar-scanner-4.7.0.2747-linux /var/opt
 
+echo "alias sonar-scanner=/var/opt/sonar-scanner-4.7.0.2747-linux/bin/sonar-scanner" >> ~/.bashrc
+source ~/.bashrc
