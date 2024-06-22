@@ -23,3 +23,4 @@ sudo mv sonar-scanner-6.0.0.4432-linux /var/opt
 
 echo "alias sonar-scanner=/var/opt/sonar-scanner-6.0.0.4432-linux/bin/sonar-scanner" >> ~/.bashrc
 exec bash
+
